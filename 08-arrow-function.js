@@ -34,3 +34,10 @@ const kvadratu =  a =>a*a;
 
 const r5 = kvadratu( pirmas);
 console.log(r5);
+
+//pavyzdyz
+
+const text = 'Labas rytas';
+
+const pirmaRaide = s => s[0];
+console.log(pirmaRaide(text));

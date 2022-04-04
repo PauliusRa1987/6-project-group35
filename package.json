@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./uzdavinai.js",
+    "dev": "nodemon ./uzdavinai-funkcijos.js",
     "dev1": "nodemon ./js/namuDarbai.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -76,3 +76,16 @@ console.log(liekana(-18, 18, 3));
 console.log(liekana(-18, 18, 5));
 console.log(liekana(-18, 18, 7));
 
+/// skaitmenu kiekis
+function numSize(params) {
+    if (typeof num !== 'number') {
+        return 'ERROR: netinkamas tipas';
+    }
+    return 1;
+}
+console.log(numSize(5));
+console.log(numSize(781));
+console.log(numSize(871110235));
+console.log(numSize(true), 'Pateikta reiksme neteisinga');
+console.log(numSize('asd'), 'Pateikta reiksme neteisinga');
+console.log(numSize(NaN), 'Pateikta reiksme neteisinga');

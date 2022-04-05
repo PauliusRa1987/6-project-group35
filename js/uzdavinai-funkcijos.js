@@ -26,3 +26,20 @@ console.log(daugyba(NaN, 5));
 console.log(daugyba(7, []));
 console.log(daugyba('7', 5));
 console.log(daugyba(7, NaN));
+//
+
+function lovefunc(flower1, flower2){
+    if (flower1%2 ===0 && flower2%2===0){
+      return false;
+      }
+    if (flower1%2 ===0 && flower2%2!==0){
+      return true;
+    }
+    if (flower1%2 !==0 && flower2%2===0){
+      return true;
+     }
+    if (flower1%2 !==0 && flower2%2!==0){
+    return false;
+    }
+}
+  console.log(lovefunc(207, 767));
